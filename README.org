@@ -1,0 +1,20 @@
+* sphinxure
+
+Sphinxure is a Clojure interface to the [[http://sphinxsearch.com][Sphinx Search Engine]].
+
+** usage
+
+Available in Clojars. If using leiningen then add the following line
+to dependencies in `project.clj':
+
+[sphinxure "0.0.1-SNAPSHOT"]
+
+The Java API has been Clojurized and is available in
+'sphinxure.sphinxapi'. A proper Clojure API should soon be available
+in 'sphinxure.core'.
+
+** License
+
+Copyright (C) 2012 Mikkel Christiansen
+
+Distributed under the Eclipse Public License, the same as Clojure.
